@@ -18,9 +18,6 @@ public class Ejer2v2 {
 		// array para imprimir los caracteres que acierte
 		char[] tablaAciertos;
 		
-		// variable -> almacenar si se ha adivinado o no la contraseña
-		boolean adivinada = false;
-		
 		// pedir contraseña a usuario
 		System.out.println("Introduzca la contraseña: ");
 		passwd = reader.nextLine();
@@ -32,7 +29,7 @@ public class Ejer2v2 {
 		Arrays.fill(tablaAciertos, '*');
 		
 		// bucle while -> adivinar contraseña
-		while (!adivinada) {
+		while (!intento.equals(passwd)) {
 			
 			// pedir a usuario el intento de adivinar contraseña
 			System.out.println("Intente adivinar la contraseña:");
@@ -48,14 +45,10 @@ public class Ejer2v2 {
 			// imprimir tabla
 			System.out.println(String.valueOf(tablaAciertos));
 			
-			// condicional if -> comprobar si se ha adivinado la contraseña o no
-			if (String.valueOf(tablaAciertos).equals(passwd)) {
-				adivinada = false;
-			}
 		}
 		
 		// imprimir resultado
-		System.out.println("Has acertado la contraseña!");
+		System.out.println("\nENHORABUENA!!! Has acertado la contraseña!");
 		
 		// cerrar scanner
 		reader.close();

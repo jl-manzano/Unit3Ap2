@@ -16,6 +16,9 @@ public class Ejer2 {
 
 		// variable -> almacenar contador
 		int intentos = 0;
+		
+		// variable -> almacenar resultado de la comparacion
+		int comparacion;
 
 		// pedir a usuario que introduzca su contraseña
 		System.out.println("Introduzca su contraseña: ");
@@ -36,14 +39,17 @@ public class Ejer2 {
 
 			// almacenar resultado de comparar contraseña
 			System.out.println();
+			
+			// almacenar el resultado de la comparacion
+			comparacion = incognita.compareTo(passwd);
 
-			if (incognita.compareTo(passwd) < 0) {
+			if (comparacion < 0) {
 				System.out.println("Su intento introducido es menor alfabéticamente que la contraseña.");
-			} else if (incognita.compareTo(passwd) > 0) {
+			} else if (comparacion > 0) {
 				System.out.println("Su intento introducido es mayor alfabéticamente que la contraseña.");
 
 			} else {
-				System.out.println("Has acertado la contraseña.");
+				System.out.println("ENHORABUENA!! Has acertado la contraseña.");
 				System.out.println("Intentos: " + intentos);
 
 			}
