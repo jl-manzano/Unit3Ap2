@@ -18,7 +18,7 @@ public class Ejer7 {
 		System.out.println("\nIntroduzca una frase: ");
 		fraseUsuario = sc.nextLine();
 		
-		// pedir frase a usuario
+		// pedir palabra a usuario
 		System.out.println("\nIntroduzca una palabra a buscar en la frase: ");
 		palabra = sc.nextLine();
 		
