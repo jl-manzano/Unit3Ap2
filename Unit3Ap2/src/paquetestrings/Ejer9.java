@@ -33,10 +33,10 @@ public class Ejer9 {
 
 		// condicional if - else if - else para comprobar si inicia con una muletilla o termina por otra -> verificar si frase está en el idioma
 		if (fraseUsuario.startsWith(MULETILLA_1)) {
-			System.out.println("Tiene la primera muletilla. Está en el idioma.");
+			System.out.println("\nTiene la primera muletilla. Está en el idioma.");
 			fraseTraducida = fraseUsuario.substring(MULETILLA_1.length(), fraseUsuario.length());
 		} else if (fraseUsuario.endsWith(MULETILLA_2)) {
-			System.out.println("Tiene la segunda muletilla. Está en el idioma.");
+			System.out.println("\nTiene la segunda muletilla. Está en el idioma.");
 			fraseTraducida = fraseUsuario.substring(0, fraseUsuario.length() - MULETILLA_2.length());
 
 		} else {

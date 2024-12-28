@@ -39,11 +39,6 @@ public class Ejer7 {
 		// variable para almacenar el indice
 		int index = 0;
 		
-		// condicional if -> comprobar si usuario no ha escrito nada
-		if (frase.isEmpty() && palabra.isEmpty()) {
-			index = -1;
-		}
-		
 		// bucle while -> determinar cuantas veces se repite la palabra en frase
 		while (index != -1) {
 			

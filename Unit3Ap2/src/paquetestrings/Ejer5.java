@@ -15,7 +15,7 @@ public class Ejer5 {
 		String fraseUsuario = "";
 
 		// pedir palabra a usuario
-		System.out.println("Introduzca una frase: ");
+		System.out.println("Introduzca una palabra: ");
 		palabra = sc.next();
 
 		// bucle while -> contruir frase
@@ -31,7 +31,7 @@ public class Ejer5 {
 			fraseUsuario += palabra;
 
 			// pedir palabra a usuario
-			System.out.println("Introduzca una frase: ");
+			System.out.println("Introduzca una palabra: ");
 			palabra = sc.next();
 
 		}

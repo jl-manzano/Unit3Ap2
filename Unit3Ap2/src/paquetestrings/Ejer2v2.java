@@ -32,7 +32,7 @@ public class Ejer2v2 {
 		while (!intento.equals(passwd)) {
 			
 			// pedir a usuario el intento de adivinar contraseña
-			System.out.println("Intente adivinar la contraseña:");
+			System.out.println("\nIntente adivinar la contraseña:");
 			intento = reader.nextLine();
 
 			// comprobar que los caracteres coincidan y en caso de que si, guardar caracter en la posicion en cuestion del array

@@ -30,9 +30,11 @@ public class Ejer8 {
 		// ordenar alfabéticamente array con palabras
 		Arrays.sort(palabras);
 
+		System.out.println();
+		
 		// mostrar resultado
 		for (int i = 0; i < palabras.length; i++) {
-			System.out.print(i+1 + ". " + palabras[i] + "\n");
+			System.out.println(i+1 + ". " + palabras[i]);
 			
 		}
 		

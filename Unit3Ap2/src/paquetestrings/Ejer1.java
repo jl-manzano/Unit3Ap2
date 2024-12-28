@@ -34,7 +34,7 @@ public class Ejer1 {
 		if (frase1.length() < frase2.length()) {
 			System.out.println("La frase 1 'invocante' es más corta que la frase 2.");
 		} else if (frase1.length() > frase2.length()) {
-			System.out.println("La frase 2 es más corta que la frase 1 'invocante'.");
+			System.out.println("La frase 2 es más corta que la frase 1.");
 		} else {
 			System.out.println("Ambas frases son iguales en cuánto a caracteres.");
 
