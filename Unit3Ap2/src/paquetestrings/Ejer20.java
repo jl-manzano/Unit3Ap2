@@ -17,21 +17,17 @@ public class Ejer20 {
 		// crear array -> almacenar resultado
 		String[] resultado;
 		
-		// bucle do-while -> asegurar que usuario introduzca palabra
+		// bucle do-while -> asegurar que usuario introduzca palabra y longitud de trozos a dividir la palabra
 		do {
 			// pedir frase a usuario
 			System.out.println("Introduzca una palabra: ");
 			palabra = sc.nextLine();
-
-		} while (palabra.isEmpty());
-		
-		// bucle do-while -> asegurar que usuario introduzca longitud de trozos a dividir la palabra
-		do {
-			// pedir frase a usuario
+			
+			// pedir longitud a usuario
 			System.out.println("\nIntroduzca la longitud de trozos a dividir la palabra: ");
 			longitud = sc.nextInt();
 
-		} while (longitud <= 0);
+		} while (palabra.isEmpty() && longitud <= 0);
 		
         // llamar a la función y almacenar resultado
         resultado = dividirEnSecuencias(palabra, longitud);
@@ -55,7 +51,7 @@ public class Ejer20 {
     	
     	// calcular el número de secuencias (método ceil de Clase Math -> redondear hacia arriba)
         // es necesario hacer casteo (double) debido a que independientemente de que Math.ceil devuelva un double, el resultado de la division de 2 numeros enteros es truncada a un entero
-    	int totalSecuencias = (int) Math.ceil( (double) palabra.length() / n);
+		int totalSecuencias = (int) Math.ceil((double) palabra.length() / n);
         
         // dar longitud del número de secuencias resultante
         secuencias = new String[totalSecuencias];

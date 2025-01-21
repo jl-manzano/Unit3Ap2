@@ -32,7 +32,7 @@ public class Ejer1 {
 		
 		// condicional if-else if-else -> determinar cuál frase es más corta o si son iguales en cuánto a caracteres
 		if (frase1.length() < frase2.length()) {
-			System.out.println("La frase 1 'invocante' es más corta que la frase 2.");
+			System.out.println("La frase 1 es más corta que la frase 2.");
 		} else if (frase1.length() > frase2.length()) {
 			System.out.println("La frase 2 es más corta que la frase 1.");
 		} else {

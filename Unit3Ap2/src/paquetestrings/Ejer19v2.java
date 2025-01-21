@@ -45,7 +45,21 @@ public class Ejer19v2 {
 		for (int i = 0; i < palabras.length; i++) {
 			
 			// tambien se podría guardar en una variable cada palabra del array y trabajar con ella
+			
+	        // Guardar la palabra actual en una variable
 			// String palabra = palabras[i];
+
+	        // Condicional para manejar la primera palabra y las demás
+			// if (i == 0) {
+				// Primera palabra: todo en minúsculas
+				// convertidaACamel += palabra.toLowerCase();
+			// } else {
+	        	// Resto de las palabras: primera letra mayúscula, resto minúsculas
+	        	// String primeraLetraMayuscula = palabra.substring(0, 1).toUpperCase();
+          		// String restoMinusculas = palabra.substring(1).toLowerCase();
+	        	// convertidaACamel += primeraLetraMayuscula + restoMinusculas;
+//	        }
+//	    }
 			
 			// condicional if - else -> convertir frase a nomenclatura Camel
 			// si es la primera palabra - todo minúscula

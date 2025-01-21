@@ -28,6 +28,9 @@ public class Ejer17 {
 		// mostrar resultado
 		System.out.println("\nSentencia sin comentarios: " + sentenciaSinComentarios);
 		
+		// cerrar scanner
+		sc.close();
+		
 	}
 	
 	static String quitarComentarios(String sentenciaC) {

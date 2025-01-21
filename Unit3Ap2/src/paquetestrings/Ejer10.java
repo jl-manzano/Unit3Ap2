@@ -36,13 +36,13 @@ public class Ejer10 {
 		}
 		
 		// mostrar frase codificada
-		System.out.println("\nLa frase " + fraseUsuario + " codificada es: " + fraseCodificada);
+		System.out.println("\nLa frase \"" + fraseUsuario + "\" codificada es: " + fraseCodificada);
 		
 		// cerrar scanner
 		sc.close();
 	}
 	
-	static char codifica(char conjunto1[],char conjunto2[], char c) {
+	static char codifica(char conjunto1[], char conjunto2[], char c) {
 		
 		// inicializar carácter codificado a c en minúscula
 		char charCoded = Character.toLowerCase(c);

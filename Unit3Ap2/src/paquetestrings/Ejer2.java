@@ -37,7 +37,7 @@ public class Ejer2 {
 			// leer intento de acierto de contraseña introducida por teclado
 			incognita = sc.next();
 
-			// almacenar resultado de comparar contraseña
+			// salto de línea
 			System.out.println();
 			
 			// almacenar el resultado de la comparacion
